@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="display" readonly>
+        </div>
+        <div class="buttons">
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="backspace()">←</button>
+            <button onclick="insert('(')">(</button>
+            <button onclick="insert(')')">)</button>
+            <button onclick="insert('/')">÷</button>
+            <button onclick="insert('7')">7</button>
+            <button onclick="insert('8')">8</button>
+            <button onclick="insert('9')">9</button>
+            <button onclick="insert('4')">4</button>
+            <button onclick="insert('*')">×</button>
+            <button onclick="insert('5')">5</button>
+            <button onclick="insert('6')">6</button>
+            <button onclick="insert('1')">1</button>
+            <button onclick="insert('2')">2</button>
+            <button onclick="insert('-')">−</button>
+            <button onclick="insert('3')">3</button>
+            <button onclick="insert('0')">0</button>
+            <button onclick="insert('sqrt(')">√</button>
+            <button onclick="insert('cbrt(')">∛</button>
+            <button onclick="insert('.')">.</button>
+            <button onclick="insert('+')">+</button>
+            <button onclick="insert('sin(')">sin</button>
+            <button onclick="insert('cos(')">cos</button>
+            <button onclick="insert('tan(')">tan</button>
+            <button onclick="insert('log(')">log</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="insert('^')">^</button>
+            <button onclick="insert('PI')">π</button>
+            <button onclick="insert('E')">e</button>
+            <button onclick="insert('asin(')">sin⁻¹</button>
+            <button onclick="insert('acos(')">cos⁻¹</button>
+            <button onclick="insert('atan(')">tan⁻¹</button>
+            <button onclick="insert('1/')">x⁻¹</button>
+            <button onclick="insert('!')">!</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
